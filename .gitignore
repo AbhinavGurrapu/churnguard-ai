@@ -1,0 +1,28 @@
+# Environment variables and credentials
+.env
+*.env
+
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# IDE and OS settings
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+
+# Streamlit local configuration
+.streamlit/secrets.toml
