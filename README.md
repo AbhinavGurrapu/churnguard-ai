@@ -139,7 +139,7 @@ churnguard-ai/
 ## Project Roadmap
 
 * [x] **Day 1:** Data Architecture, Synthetic Event Stream, PostgreSQL Schema & Feature Store.
-* [ ] **Day 2:** ML Classification Pipeline (Logistic Regression Baseline vs. XGBoost Classifier & Metrics).
+* [x] **Day 2:** ML Classification Pipeline (Logistic Regression Baseline vs. XGBoost Classifier & Metrics).
 * [ ] **Day 3:** SHAP Explainability Engine (Global Feature Importance + Per-User Local Drivers).
 * [ ] **Day 4:** Guardrail-Enforced AI Retention Agent (LLM Function Calling & Python Logic Tools).
 * [ ] **Day 5:** ROI / LTV Financial Simulator & Execution Action Logging.
