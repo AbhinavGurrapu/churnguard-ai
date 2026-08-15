@@ -5,3 +5,7 @@ timestamp,user_id,churn_probability,action_name,reason,discount_pct,ltv,net_roi,
 2026-08-15 17:31:20,1005,0.88,VIP Dedicated Technical Escalation,Action 'VIP Dedicated Technical Escalation' approved. Proposed discount (20.0%) within policy cap of 20.0%.,20.0,3588.0,357.8,EXECUTED_SUCCESS
 2026-08-15 17:31:20,2040,0.75,30% Discount Promotion,Action '30% Discount Promotion' approved. Proposed discount (10.0%) within policy cap of 10.0%.,10.0,348.0,68.6,EXECUTED_SUCCESS
 2026-08-15 17:44:19,9999,0.8,40% Excessive Discount,Action '40% Excessive Discount' approved. Proposed discount (10.0%) within policy cap of 10.0%.,10.0,348.0,68.6,EXECUTED_SUCCESS
+2026-08-15 18:19:44,3510,0.8351,Discount Offer,High churn risk (83.5%) driven by recent inactivity (0 sessions in 14 days). Offered 15% discount to re-engage.,15.0,1188.0,177.2,EXECUTED_SUCCESS
+2026-08-15 18:30:11,3510,0.8351,discount_and_support_outreach,Action approved after retry at max allowed discount cap of 15%,15.0,1188.0,98.88,EXECUTED_SUCCESS
+2026-08-15 18:30:31,1099,0.12,No Action Required,User churn probability (12.0%) is below the 35% risk threshold. Ineligible for retention discount.,0.0,348.0,0.0,HALTED_CLEANLY
+2026-08-15 18:30:54,2040,0.75,Targeted Re-engagement Discount,Action 'Targeted Re-engagement Discount' approved. Proposed discount (10.0%) within policy cap of 10.0%.,10.0,348.0,191.62,EXECUTED_SUCCESS
