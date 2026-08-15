@@ -26,6 +26,15 @@ def _load_env_file(env_path: str = ".env"):
 
 _load_env_file()
 
+def get_gemini_api_key():
+    try:
+        if "GEMINI_API_KEY" in st.secrets:
+            return st.secrets["GEMINI_API_KEY"]
+    except Exception:
+        pass
+    _load_env_file()
+    return os.environ.get("GEMINI_API_KEY")
+
 from src.agent.agent import RetentionAgent
 from src.agent.tools import check_retention_rules, calculate_ltv, calculate_intervention_roi
 
@@ -157,7 +166,7 @@ def render_sidebar():
         st.divider()
 
         st.markdown("### 🔑 System Status")
-        env_key = os.environ.get("GEMINI_API_KEY")
+        env_key = get_gemini_api_key()
         if env_key:
             st.success("🟢 Gemini LLM Connected (gemini-3.5-flash-lite)")
         else:
@@ -439,7 +448,7 @@ def main():
 
                 # Run Retention Agent Button
                 if st.button("🚀 Run Retention Agent for User #" + str(sandbox_user_id), type="primary"):
-                    env_key = os.environ.get("GEMINI_API_KEY")
+                    env_key = get_gemini_api_key()
                     if not env_key:
                         st.error("⚠️ GEMINI_API_KEY environment variable is missing. Please configure your API key in environment or .env file.")
                     else:

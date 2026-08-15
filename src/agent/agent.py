@@ -38,12 +38,19 @@ class RetentionAgent:
     """
     def __init__(self, api_key: str = None, model_name: str = "gemini-3.5-flash-lite"):
         _load_env_file()
+        if not api_key:
+            try:
+                import streamlit as st
+                if "GEMINI_API_KEY" in st.secrets:
+                    api_key = st.secrets["GEMINI_API_KEY"]
+            except Exception:
+                pass
         self.api_key = api_key or os.environ.get("GEMINI_API_KEY")
         if not self.api_key:
-            raise ValueError("GEMINI_API_KEY environment variable is missing. Please configure it in your environment or .env file.")
+            raise ValueError("GEMINI_API_KEY environment variable or st.secrets is missing.")
         
         self.model_name = model_name
-        self.client = genai.Client()
+        self.client = genai.Client(api_key=self.api_key)
 
     def process_user_risk_profile(self, user_profile: Dict[str, Any]) -> Dict[str, Any]:
         """
