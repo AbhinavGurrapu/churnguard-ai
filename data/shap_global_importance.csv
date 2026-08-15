@@ -1,0 +1,16 @@
+feature,mean_abs_shap,rank
+sessions_recent_14d,2.4569154,1
+support_ticket_count,0.42290002,2
+days_since_last_session,0.35413212,3
+total_events_60d,0.27337193,4
+core_feature_usage_count,0.18657576,5
+avg_session_gap_days,0.17303891,6
+avg_session_duration_minutes,0.1484091,7
+session_drop_pct,0.13338715,8
+sessions_previous_14d,0.11194767,9
+unresolved_tickets,0.09656525,10
+total_spend_60d,0.0720032,11
+plan_tier_Pro,0.029493565,12
+monthly_fee,0.012495756,13
+plan_tier_Basic,0.0,14
+plan_tier_Enterprise,0.0,15
