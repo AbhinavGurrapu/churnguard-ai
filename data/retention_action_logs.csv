@@ -9,3 +9,10 @@ timestamp,user_id,churn_probability,action_name,reason,discount_pct,ltv,net_roi,
 2026-08-15 18:30:11,3510,0.8351,discount_and_support_outreach,Action approved after retry at max allowed discount cap of 15%,15.0,1188.0,98.88,EXECUTED_SUCCESS
 2026-08-15 18:30:31,1099,0.12,No Action Required,User churn probability (12.0%) is below the 35% risk threshold. Ineligible for retention discount.,0.0,348.0,0.0,HALTED_CLEANLY
 2026-08-15 18:30:54,2040,0.75,Targeted Re-engagement Discount,Action 'Targeted Re-engagement Discount' approved. Proposed discount (10.0%) within policy cap of 10.0%.,10.0,348.0,191.62,EXECUTED_SUCCESS
+2026-08-15 22:01:59,9999,0.8,10% Standard Discount,Action '10% Standard Discount' approved. Proposed discount (10.0%) within policy cap of 10.0%.,10.0,348.0,191.62,EXECUTED_SUCCESS
+2026-08-15 22:03:03,9999,0.8,10% Max Allowed Discount,Action '10% Max Allowed Discount' approved. Proposed discount (10.0%) within policy cap of 10.0%.,10.0,348.0,68.6,EXECUTED_SUCCESS
+2026-08-15 22:03:08,1099,0.12,No Action - Low Risk,User churn probability (12.0%) is below the 35% risk threshold. Ineligible for retention discount.,0.0,348.0,0.0,HALTED_LOW_RISK
+2026-08-15 22:17:40,3510,0.8351,Discount Offer & Concierge Outreach,Action 'Discount Offer & Concierge Outreach' approved. Proposed discount (15.0%) within policy cap of 15.0%.,15.0,1188.0,98.88,EXECUTED_SUCCESS
+2026-08-15 22:26:08,1001,0.748,Discount Offer + Proactive Support Outreach,Action 'Discount Offer + Proactive Support Outreach' approved. Proposed discount (0.2%) within policy cap of 10.0%.,0.2,348.0,102.7,EXECUTED_SUCCESS
+2026-08-15 22:30:00,3510,0.8351,offer_discount,Action 'offer_discount' approved. Proposed discount (15.0%) within policy cap of 15.0%.,15.0,1188.0,98.88,EXECUTED_SUCCESS
+2026-08-15 22:30:29,3510,0.8351,discount_and_support_outreach,Action 'discount_and_support_outreach' approved. Proposed discount (15.0%) within policy cap of 15.0%.,15.0,1188.0,98.88,EXECUTED_SUCCESS

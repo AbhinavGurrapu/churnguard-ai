@@ -43,9 +43,10 @@ def run_day4_architecture_audit():
     })
     # Check trace iterations
     rule_checks = [t for t in res_rejected['tool_call_trace'] if t['tool'] == 'check_retention_rules']
-    if len(rule_checks) > 2 or res_rejected['applied_discount_pct'] > 10.0:
+    applied_disc = res_rejected.get('applied_discount_pct', 0.0)
+    if len(rule_checks) > 2 or applied_disc > 10.0:
         c6_c7_c8 = "FAIL"
-    c6_c7_c8_note = f"Excessive 40% request was auto-capped to compliant {res_rejected['applied_discount_pct']:.0f}% on iteration {len(rule_checks)} (Max retries = 1)."
+    c6_c7_c8_note = f"Excessive 40% request was auto-capped to compliant {applied_disc:.0f}% on iteration {len(rule_checks)} (Max retries = 1)."
 
     # 5. Audit Check 9: Low-Risk User Safeguard
     c9 = "PASS"
@@ -54,7 +55,8 @@ def run_day4_architecture_audit():
     })
     if res_low_risk['guardrail_approved'] or res_low_risk['execution_status'] != "HALTED_SAFE_USER":
         c9 = "FAIL"
-    c9_note = f"User with 12.0% churn probability was correctly HALTED (Reason: \"{res_low_risk['rejection_reason']}\")."
+    rej_reason = res_low_risk.get('rejection_reason', res_low_risk.get('guardrail_reason', ''))
+    c9_note = f"User with 12.0% churn probability was correctly HALTED (Reason: \"{rej_reason}\")."
 
     # 6. Audit Check 10: Secret / Hardcoded Credentials Check
     c10 = "PASS"

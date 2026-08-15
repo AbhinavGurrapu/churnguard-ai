@@ -4,135 +4,133 @@
 ChurnGuard AI is an end-to-end predictive customer retention engine designed to bridge raw product analytics, machine learning, and automated business intervention. The primary goal of the system is to identify behavioral product churn early and trigger guardrail-constrained retention actions that protect customer lifetime value (LTV).
 
 > [!NOTE]
-> **Project Status (Day 1 Complete):** The SQL Data Architecture, Synthetic Event Stream, PostgreSQL Schema, and Temporal Feature Store are fully implemented and validated. Machine Learning (XGBoost/Logistic Regression), SHAP explainability, Agentic AI retention tools, and the Streamlit dashboard are planned for upcoming implementation phases.
+> **Project Status (Complete - Days 1–6):** The full 6-day production-inspired pipeline is fully implemented, validated, and interactive via a 3-tab Streamlit Dashboard (`src/app.py`).
 
 ---
 
-## Synthetic Dataset & Rationale
+## 🏛️ End-to-End System Architecture
+
+```text
+PostgreSQL Feature Store  (Temporal Cutoff Days 1–60)
+        ↓
+XGBoost Churn Prediction  (ROC-AUC 0.9162 on 600 Test Users)
+        ↓
+SHAP Explainability       (TreeExplainer Margin Space & Local Risk Profiles)
+        ↓
+Gemini Retention Agent    (Real LLM Tool Calling via google-genai)
+        ↓
+Python Business Rules     (Hard Policy Caps: Basic ≤10%, Pro ≤15%, Enterprise ≤20%)
+        ↓
+ROI & Impact Simulator   (Expected Value Saved & Net Financial Impact $)
+        ↓
+Streamlit Dashboard       (Executive Overview, Risk Explorer, Agent Sandbox)
+```
+
+---
+
+## 🚀 How to Run the Application
+
+### 1. Prerequisites & Environment Setup
+Ensure Python 3.10+ and PostgreSQL are installed. Create a `.env` file in the project root to configure your Gemini API Key:
+
+```bash
+# .env (Ignored by Git)
+GEMINI_API_KEY=your_google_gemini_api_key_here
+```
+
+### 2. Run the Streamlit Dashboard
+Launch the interactive 3-tab Streamlit dashboard:
+
+```bash
+streamlit run src/app.py
+```
+
+### 3. Execute Verification Audit Suites
+To run the automated validation test suites across all pipeline stages:
+
+```bash
+# Day 1: Feature Store & Fan-out Validation Audit
+python src/data/validate_feature_store.py
+
+# Day 2: ML Pipeline & Data Leakage Audit
+python src/models/verify_day2_eval.py
+
+# Day 3: SHAP Margin Space & Sign Audit
+python src/explainability/verify_day3_global.py
+
+# Day 4: Agent Architecture & Security Audit
+python src/agent/verify_day4_agent.py
+
+# Day 5: Portfolio Business Impact Simulator Test
+python src/business/test_impact_simulator.py
+```
+
+---
+
+## 📊 Dataset & Temporal Feature Architecture
+
+### Synthetic Dataset & Rationale
 Many commonly used churn datasets are already aggregated at the customer level and do not provide the event-level temporal history needed for this project.
-
-To showcase production-inspired temporal SQL feature store construction:
 * A realistic synthetic event stream was generated spanning **90 days** across **3,000 users**.
-* All users signed up in December 2025 prior to the observation window start date, ensuring a complete 60-day feature history for every record.
-* User activity incorporates 3 latent probabilistic cohorts (*Engaged*, *Gradual Decline*, and *Friction/Support Drop-off*), allowing churn to emerge naturally rather than via hardcoded rules.
+* User activity incorporates 3 latent probabilistic cohorts (*Engaged*, *Gradual Decline*, and *Friction/Support Drop-off*).
 
----
-
-## Dataset Schema & Tables
-
-The raw relational database comprises 5 core tables hosted in **PostgreSQL**:
-
-1. `users` (3,000 rows): `user_id`, `signup_date`, `plan_tier`, `monthly_fee` (29.00, 99.00, 299.00)
+### Relational Schema (PostgreSQL)
+1. `users` (3,000 rows): `user_id`, `signup_date`, `plan_tier`, `monthly_fee` ($29, $99, $299)
 2. `sessions` (147,733 rows): `session_id`, `user_id`, `session_start`, `session_end`, `device_type`
 3. `events` (664,819 rows): `event_id`, `session_id`, `user_id`, `event_timestamp`, `event_name`
 4. `orders` (1,667 rows): `order_id`, `user_id`, `order_timestamp`, `amount`
 5. `support_tickets` (1,015 rows): `ticket_id`, `user_id`, `created_at`, `category`, `status`
 
----
-
-## Temporal Cutoff & Behavioral Churn Definition
-
-To guarantee **temporal isolation** and prevent future-window data leakage, the timeline is strictly divided into two windows:
-
+### Temporal Isolation & Leakage Prevention
 ```text
-      Observation Window (Days 1 to 60)         Future Label Window (Days 61 to 90)
-┌───────────────────────────────────────────────┬───────────────────────────────┐
-│  Jan 1, 2026 00:00:00 to March 1, 2026 23:59 │ March 2, 2026 to March 31, 2026│
-│                                               │                               │
-│  SQL extracts ALL features strictly from      │  Target label evaluated HERE: │
-│  events occurring within this 60-day window. │  Has user logged any sessions │
-│                                               │  or orders in this 30-day     │
-│                                               │  future window?               │
-│                                               │   NO  ==> churn_label = 1     │
-│                                               │   YES ==> churn_label = 0     │
-└───────────────────────────────────────────────┴───────────────────────────────┘
-                                                ▲
-                                         PREDICTION POINT
-                                     (March 1, 2026 23:59:59)
-```
-
-* **Behavioral Churn Definition:** A user is labeled `churn_label = 1` (Behavioral Churn / Product Inactivity) if they log **0 sessions AND 0 orders** in Days 61–90. Otherwise, `churn_label = 0`.
-
----
-
-## PostgreSQL Feature Store Architecture & Design Decisions
-
-### 1. Preventing SQL Join Fan-Out
-Naively joining `sessions`, `events`, `orders`, and `support_tickets` directly before running aggregations creates a multi-table row multiplication problem. 
-
-To solve this, `sql/02_feature_store.sql` builds **4 independent user-level Common Table Expressions (CTEs)** (`session_features`, `event_features`, `order_features`, `support_features`) that aggregate metrics down to **1 row per user** *before* joining back to `users`. This guarantees that $1 \text{ row} = 1 \text{ user}$ without row inflation.
-
-### 2. Preventing Data Leakage
-All feature extraction queries filter strictly on `timestamp <= '2026-03-01 23:59:59'`. The model inputs never observe any event occurring in the Days 61–90 label window.
-
-### 3. PostgreSQL Window Function Integration
-The feature `avg_session_gap_days` utilizes `LAG(session_start) OVER (PARTITION BY user_id ORDER BY session_start)` inside a CTE to compute the mean day gap between consecutive sessions for each user.
-
----
-
-## Current SQL Feature Dictionary
-
-| Feature Name | Category | Logic & Business Rationale | Missing / Sentinel Rule |
-| :--- | :--- | :--- | :--- |
-| `days_since_last_session` | Recency | Days from user's last session to Day 60 cutoff | Sentinel `60` if 0 sessions |
-| `sessions_recent_14d` | Engagement | Session count in Days 47–60 | `0` if no sessions |
-| `sessions_previous_14d` | Engagement | Session count in Days 33–46 | `0` if no sessions |
-| `session_drop_pct` | Trend | $\frac{\text{prev\_14d} - \text{rec\_14d}}{\text{prev\_14d}} \times 100$ | `0.0%` if both 0; `100.0%` if dropped to 0 |
-| `total_events_60d` | Engagement | Total event count over 60 days | `0` if no events |
-| `core_feature_usage_count`| Adoption | Count of `'feature_used'` events | `0` if none used |
-| `avg_session_duration_minutes`| Depth | Mean duration in minutes | `0.0` if no sessions |
-| `avg_session_gap_days` | Velocity | Mean gap via `LAG(session_start)` | **`NULL`** if $< 2$ sessions (handled in ML) |
-| `monthly_fee` | Value | Subscription tier price (29.00, 99.00, 299.00) | Raw fee |
-| `total_spend_60d` | Value | `(monthly_fee * 2) + sum(add_on_orders)` | Base fee sum |
-| `support_ticket_count` | Friction | Total support tickets in Days 1–60 | `0` if no tickets |
-| `unresolved_tickets` | Friction | Count of 'open' or 'escalated' tickets | `0` if no unresolved tickets |
-| **`churn_label`** | **Target** | **1 if inactive in Days 61–90, else 0** | **Binary Target** |
-
----
-
-## Validation & Audit Results
-
-The feature store script `src/data/validate_feature_store.py` executed a 4-point audit:
-
-* **Row Count Audit:** Exactly **3,000 unique rows** for 3,000 users ($0$ fan-out).
-* **Target Distribution:** **2,634 Active (87.80%)**, **366 Churned (12.20%)** (Synthetic churn rate of 12.20%).
-* **Manual Feature Spot-Checks:** Manual spot-checks matched the independently calculated feature values for sample users (`1001`, `1002`, `1003`).
-* **Behavioral Separation Verification:**
-  * Non-churned users average **3.15 days** since last session vs. **14.92 days** for churned users.
-  * Churned users exhibit an average **65.38% session volume drop** in the final 14 days vs. **5.53%** for active users.
-
----
-
-## Project Directory Structure
-
-```text
-churnguard-ai/
-├── README.md
-├── .gitignore
-├── data/
-│   ├── users.csv                       (3,000 raw users)
-│   ├── sessions.csv                    (147,733 raw sessions)
-│   ├── events.csv                      (664,819 raw events)
-│   ├── orders.csv                      (1,667 raw orders)
-│   ├── support_tickets.csv             (1,015 raw support tickets)
-│   └── churn_feature_store.csv         (Validated 1-row-per-user ML Feature Store)
-├── sql/
-│   ├── 01_schema.sql                   (PostgreSQL DDL script with indexes)
-│   └── 02_feature_store.sql            (1-row-per-user SQL query using CTEs & window functions)
-└── src/
-    └── data/
-        ├── generate_data.py            (Synthetic event generator)
-        ├── load_to_postgres.py         (PostgreSQL data loader)
-        └── validate_feature_store.py   (4-point validation audit script)
+       Observation Window (Days 1 to 60)         Future Label Window (Days 61 to 90)
+ ┌───────────────────────────────────────────────┬───────────────────────────────┐
+ │  Jan 1, 2026 00:00:00 to March 1, 2026 23:59 │ March 2, 2026 to March 31, 2026│
+ │                                               │                               │
+ │  SQL extracts ALL features strictly from      │  Target label evaluated HERE: │
+ │  events occurring within this 60-day window. │  Has user logged any sessions │
+ │                                               │  or orders in this 30-day     │
+ │                                               │  future window?               │
+ │                                               │   NO  ==> churn_label = 1     │
+ │                                               │   YES ==> churn_label = 0     │
+ └───────────────────────────────────────────────┴───────────────────────────────┘
+                                                 ▲
+                                          PREDICTION POINT
+                                      (March 1, 2026 23:59:59)
 ```
 
 ---
 
-## Technologies Used (Day 1)
+## 🤖 Guardrail-Enforced AI Agent Architecture
 
-* **Database:** PostgreSQL (SQL DDL, CTEs, Window Functions, Indexes)
-* **Language & Libraries:** Python 3.13, Pandas, NumPy, psycopg2-binary
-* **Environment:** Local PostgreSQL + pgAdmin
+The `RetentionAgent` (`src/agent/agent.py`) combines Google Gemini (`gemini-3.5-flash-lite` via `google-genai`) with 5 deterministic Python tools:
+
+1. `calculate_ltv()`: Computes annual customer LTV ($\text{monthly\_fee} \times 12$).
+2. `check_retention_rules()`: Enforces hard business policy caps (Basic $\le 10\%$, Pro $\le 15\%$, Enterprise $\le 20\%$) and risk threshold ($P \ge 35\%$).
+3. `calculate_intervention_roi()`: Calculates financial expected value saved, intervention costs, and net ROI $\%$.
+4. `generate_retention_message()`: Constructs targeted copy based on SHAP risk vector.
+5. `log_retention_action()`: Records execution status in `data/retention_action_logs.csv`.
+
+---
+
+## 📈 Portfolio Business Impact & ROI Simulation
+
+Across the 600 held-out test users:
+* **Targeted High-Risk Accounts ($P \ge 35\%$):** 84 accounts (14.0%)
+* **Total LTV Targeted:** $86,832.00
+* **Expected Value Saved (30% retention rate assumption):** $26,049.60
+* **Total Intervention Cost:** $14,137.20
+* **Net Financial Impact:** **+$11,912.40**
+* **Retention Program Overall ROI:** **84.26%**
+
+---
+
+## 🎯 Key Interview Talking Points
+
+1. **How Join Fan-Out Was Prevented:** Used 4 independent CTEs to aggregate sub-tables down to 1 row per user *before* joining back to `users`, guaranteeing $1 \text{ row} = 1 \text{ user}$.
+2. **How Data Leakage Was Prevented:** Strict SQL cutoff at `timestamp <= '2026-03-01 23:59:59'`. Preprocessing scalers and imputers fit strictly on `X_train` (2,400 users) and applied to `X_test` (600 users).
+3. **Why Business Rules are Deterministic:** LLMs are non-deterministic text generators. By placing policy caps in Python tools, the LLM can recommend actions, but Python tools act as an unbypassable policy firewall.
+4. **SHAP TreeExplainer Margin Space:** SHAP values explain XGBoost outputs in raw log-odds margin space. Base value $-2.0542$ corresponds to $11.36\%$ baseline dataset churn probability.
 
 ---
 
@@ -143,4 +141,4 @@ churnguard-ai/
 * [x] **Day 3:** SHAP Explainability Engine (Global Feature Importance + Per-User Local Drivers).
 * [x] **Day 4:** Guardrail-Enforced AI Retention Agent (LLM Function Calling & Python Logic Tools).
 * [x] **Day 5:** ROI / LTV Financial Simulator & Execution Action Logging.
-* [ ] **Day 6:** 3-Tab Streamlit Dashboard & Interview Defense Setup.
+* [x] **Day 6:** 3-Tab Streamlit Dashboard & Interview Defense Setup.
