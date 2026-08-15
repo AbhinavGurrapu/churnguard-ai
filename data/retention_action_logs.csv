@@ -1,0 +1,7 @@
+timestamp,user_id,churn_probability,action_name,reason,discount_pct,ltv,net_roi,execution_status
+2026-08-15 14:11:55,3510,0.8351,1-on-1 Strategy Call + 15% Discount,Action '1-on-1 Strategy Call + 15% Discount' approved. Proposed discount (15.0%) within policy cap of 15.0%.,15.0,1188.0,177.2,SIMULATED_SUCCESS
+2026-08-15 14:11:55,1005,0.88,VIP Dedicated Tech Escalation + 20% Discount,Action 'VIP Dedicated Tech Escalation + 20% Discount' approved. Proposed discount (20.0%) within policy cap of 20.0%.,20.0,3588.0,357.8,SIMULATED_SUCCESS
+2026-08-15 17:31:20,3510,0.8351,1-on-1 Product Onboarding & Re-engagement,Action '1-on-1 Product Onboarding & Re-engagement' approved. Proposed discount (15.0%) within policy cap of 15.0%.,15.0,1188.0,177.2,EXECUTED_SUCCESS
+2026-08-15 17:31:20,1005,0.88,VIP Dedicated Technical Escalation,Action 'VIP Dedicated Technical Escalation' approved. Proposed discount (20.0%) within policy cap of 20.0%.,20.0,3588.0,357.8,EXECUTED_SUCCESS
+2026-08-15 17:31:20,2040,0.75,30% Discount Promotion,Action '30% Discount Promotion' approved. Proposed discount (10.0%) within policy cap of 10.0%.,10.0,348.0,68.6,EXECUTED_SUCCESS
+2026-08-15 17:44:19,9999,0.8,40% Excessive Discount,Action '40% Excessive Discount' approved. Proposed discount (10.0%) within policy cap of 10.0%.,10.0,348.0,68.6,EXECUTED_SUCCESS
