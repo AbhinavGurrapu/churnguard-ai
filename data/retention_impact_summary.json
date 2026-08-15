@@ -1,0 +1,38 @@
+{
+  "simulation_assumptions": {
+    "expected_retention_probability": 0.3,
+    "messaging_cost": 1.0,
+    "lifespan_months": 12,
+    "risk_threshold": 0.35,
+    "disclaimer": "SIMULATION ASSUMPTIONS: These financial metrics are expected-value projections based on probabilistic model predictions, not empirically observed causal field results."
+  },
+  "portfolio_metrics": {
+    "total_users_analyzed": 600,
+    "eligible_high_risk_users_targeted": 84,
+    "users_not_targeted_safe": 516,
+    "total_ltv_of_targeted_users": 86832.0,
+    "total_expected_value_saved": 26049.6,
+    "total_intervention_cost": 14137.2,
+    "total_net_impact": 11912.4,
+    "overall_program_roi_percentage": 84.26,
+    "positive_roi_users_count": 84,
+    "negative_roi_users_count": 0
+  },
+  "scenario_comparison": {
+    "scenario_a_no_intervention": {
+      "description": "Baseline: No retention program executed.",
+      "users_targeted": 0,
+      "expected_value_saved": 0.0,
+      "intervention_cost": 0.0,
+      "net_impact": 0.0
+    },
+    "scenario_b_retention_program": {
+      "description": "Active: Target eligible high-risk users (churn prob >= 35%) with guardrail-capped discounts.",
+      "users_targeted": 84,
+      "expected_value_saved": 26049.6,
+      "intervention_cost": 14137.2,
+      "net_impact": 11912.4,
+      "net_uplift_over_baseline": 11912.4
+    }
+  }
+}

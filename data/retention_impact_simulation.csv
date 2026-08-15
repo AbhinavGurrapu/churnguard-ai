@@ -1,0 +1,601 @@
+user_id,churn_probability,plan_tier,monthly_fee,ltv,primary_driver,is_eligible,approved_action,approved_discount_pct,expected_value_saved,discount_cost,total_intervention_cost,net_impact,roi_percentage,status_note
+3222,0.0005,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2328,0.0035,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1967,0.1235,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1625,0.0344,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2618,0.0004,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3891,0.0002,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2732,0.0293,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3850,0.0008,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3374,0.0004,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2334,0.0689,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3808,0.5758,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+1110,0.5602,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+3669,0.1404,Basic,29.0,348.0,session_drop_pct,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2564,0.0002,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2293,0.0679,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2609,0.0005,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3368,0.0005,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1559,0.6477,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+1882,0.0004,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3277,0.5487,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+3917,0.0033,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1876,0.0066,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1042,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3474,0.043,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3043,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3784,0.1461,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1212,0.0007,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2208,0.4939,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+2745,0.0004,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1585,0.0009,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3343,0.0004,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2492,0.0265,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2896,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2923,0.0265,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1980,0.0237,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1167,0.0007,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1258,0.0008,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2461,0.0526,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3760,0.0404,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3795,0.1111,Enterprise,299.0,3588.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2389,0.0005,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2320,0.122,Enterprise,299.0,3588.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3014,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1383,0.0134,Basic,29.0,348.0,avg_session_gap_days,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2791,0.7247,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+2229,0.0971,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2719,0.0486,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1228,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3725,0.0003,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3347,0.0733,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3353,0.0005,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1711,0.0239,Basic,29.0,348.0,avg_session_gap_days,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1577,0.0249,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2038,0.8241,Enterprise,299.0,3588.0,sessions_recent_14d,True,Re-engagement Strategy Call,20.0,1076.4,717.6,718.6,357.8,49.79,Action 'Re-engagement Strategy Call' approved. Proposed discount (20.0%) within policy cap of 20.0%.
+1776,0.1196,Enterprise,299.0,3588.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2311,0.6152,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+3962,0.1222,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2049,0.0422,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1454,0.0003,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1147,0.0009,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3510,0.8351,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+1535,0.0005,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2333,0.0005,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1660,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2033,0.0057,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1902,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2210,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2738,0.0329,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3080,0.0247,Enterprise,299.0,3588.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2009,0.0924,Basic,29.0,348.0,total_events_60d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3268,0.0689,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1175,0.0902,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2654,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2175,0.0002,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1250,0.5513,Enterprise,299.0,3588.0,sessions_recent_14d,True,Re-engagement Strategy Call,20.0,1076.4,717.6,718.6,357.8,49.79,Action 'Re-engagement Strategy Call' approved. Proposed discount (20.0%) within policy cap of 20.0%.
+3576,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3001,0.2403,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2004,0.0578,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1203,0.695,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+1395,0.3456,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3361,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1353,0.5058,Basic,29.0,348.0,days_since_last_session,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+3436,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3454,0.0026,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3608,0.0437,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2748,0.0009,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1996,0.0003,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1969,0.0295,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2588,0.013,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1641,0.109,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1936,0.0004,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2974,0.0993,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1966,0.102,Pro,99.0,1188.0,days_since_last_session,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2216,0.0253,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3689,0.0003,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1989,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2413,0.0934,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3845,0.0524,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3434,0.0006,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2299,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1699,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3614,0.6955,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+2054,0.289,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1721,0.0011,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3112,0.0979,Enterprise,299.0,3588.0,avg_session_gap_days,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2589,0.2075,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3256,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3862,0.0029,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3228,0.001,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2114,0.1415,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2874,0.0005,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1542,0.7112,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+2318,0.2843,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3580,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1376,0.3253,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3773,0.0006,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1455,0.0419,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3963,0.0346,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3251,0.0168,Pro,99.0,1188.0,avg_session_gap_days,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1041,0.3381,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3480,0.1266,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2433,0.0942,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3615,0.0173,Basic,29.0,348.0,avg_session_gap_days,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2899,0.0011,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3597,0.7664,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+2319,0.0095,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2534,0.5503,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+1593,0.4531,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+3656,0.025,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2199,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2800,0.0109,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3186,0.0004,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1746,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1952,0.0003,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3195,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3652,0.6508,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+1832,0.001,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2731,0.0049,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1884,0.0005,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3945,0.001,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1570,0.0283,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3650,0.0004,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1113,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2475,0.708,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+2708,0.1469,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2955,0.0002,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3475,0.5402,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+1446,0.4442,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+3871,0.0279,Enterprise,299.0,3588.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2867,0.0281,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2481,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2919,0.0004,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3932,0.0008,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3967,0.4956,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+2101,0.0009,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2207,0.0004,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2400,0.0004,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1799,0.002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3140,0.0005,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2060,0.6853,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+3703,0.7337,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+2477,0.0123,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2610,0.0536,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3464,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1024,0.0428,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1675,0.0005,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3523,0.0945,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1737,0.0004,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1666,0.0249,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3770,0.001,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2390,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1075,0.0005,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3626,0.6634,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+1878,0.1388,Enterprise,299.0,3588.0,total_spend_60d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2713,0.024,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3974,0.0012,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3837,0.0004,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2766,0.0395,Basic,29.0,348.0,core_feature_usage_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1970,0.0021,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1939,0.0749,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2316,0.0635,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1268,0.7886,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+3922,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2348,0.1144,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2735,0.0006,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2560,0.0007,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3567,0.0006,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3901,0.0004,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2854,0.0005,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1450,0.0004,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3999,0.0962,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2717,0.0005,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2617,0.0008,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2351,0.5471,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+1209,0.0008,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1247,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2375,0.2325,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3182,0.0195,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1563,0.0111,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2881,0.0304,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1345,0.004,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2162,0.0003,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2695,0.0663,Basic,29.0,348.0,days_since_last_session,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3780,0.0622,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3992,0.0025,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1950,0.007,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1681,0.0007,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2566,0.0361,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2100,0.0002,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1574,0.3959,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+3777,0.1183,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3879,0.0007,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1976,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3504,0.5329,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+2920,0.0737,Enterprise,299.0,3588.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3157,0.7982,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+1227,0.5198,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+2090,0.0209,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2213,0.6913,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+3012,0.024,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2498,0.2246,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1567,0.0005,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3566,0.0635,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3049,0.0004,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2302,0.0004,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1749,0.0003,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1618,0.0361,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2193,0.0188,Basic,29.0,348.0,days_since_last_session,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2142,0.0005,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1719,0.0306,Basic,29.0,348.0,core_feature_usage_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3541,0.0007,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3943,0.0008,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1014,0.0694,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3371,0.0008,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3266,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1590,0.0673,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3163,0.7573,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+3030,0.5127,Enterprise,299.0,3588.0,sessions_recent_14d,True,Re-engagement Strategy Call,20.0,1076.4,717.6,718.6,357.8,49.79,Action 'Re-engagement Strategy Call' approved. Proposed discount (20.0%) within policy cap of 20.0%.
+1181,0.0593,Basic,29.0,348.0,days_since_last_session,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2898,0.0195,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3052,0.0002,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1689,0.0671,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3571,0.0003,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1302,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3002,0.0003,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3690,0.0037,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2924,0.0381,Enterprise,299.0,3588.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2138,0.0182,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3583,0.4399,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+1306,0.0744,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2095,0.5565,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+3252,0.0006,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3663,0.0333,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3838,0.0002,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3925,0.0512,Basic,29.0,348.0,days_since_last_session,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2758,0.5155,Enterprise,299.0,3588.0,sessions_recent_14d,True,Re-engagement Strategy Call,20.0,1076.4,717.6,718.6,357.8,49.79,Action 'Re-engagement Strategy Call' approved. Proposed discount (20.0%) within policy cap of 20.0%.
+1943,0.0006,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3045,0.0005,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3579,0.1023,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3149,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2167,0.0755,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2744,0.0004,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2485,0.0007,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1474,0.6151,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+2154,0.0808,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3074,0.0004,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2321,0.0006,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3509,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3507,0.2133,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1022,0.6933,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+1281,0.0002,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1481,0.0951,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2869,0.0059,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2380,0.0003,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2282,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3389,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1407,0.8012,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+1928,0.0002,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1433,0.0071,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2859,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2942,0.0004,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1998,0.3994,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+3788,0.0005,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1139,0.0486,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1456,0.0004,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1642,0.0004,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1873,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2646,0.4475,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+1601,0.0004,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3168,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1150,0.0005,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2314,0.0237,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1629,0.0005,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1844,0.0004,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3570,0.6007,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+1583,0.0677,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3227,0.0295,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3517,0.0311,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3499,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2788,0.002,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3469,0.0846,Enterprise,299.0,3588.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3076,0.0006,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2945,0.0009,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3866,0.0006,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1104,0.0427,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3056,0.0432,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2540,0.4525,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+3036,0.0164,Basic,29.0,348.0,avg_session_gap_days,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2214,0.6429,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+3399,0.0311,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3956,0.4616,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+2752,0.0002,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1588,0.1467,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3740,0.0002,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3087,0.0403,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2696,0.3068,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1648,0.0002,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2250,0.0006,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3432,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2822,0.0021,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1233,0.0003,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3678,0.0048,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2933,0.0006,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1894,0.0412,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1909,0.1172,Basic,29.0,348.0,avg_session_gap_days,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1451,0.0008,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1058,0.598,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+3315,0.0705,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3548,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3914,0.0007,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2652,0.0004,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3160,0.0496,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2366,0.0003,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2812,0.8247,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+3587,0.0004,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3542,0.0006,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1916,0.0929,Enterprise,299.0,3588.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3809,0.0005,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2092,0.0005,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3939,0.3617,Enterprise,299.0,3588.0,sessions_recent_14d,True,Re-engagement Strategy Call,20.0,1076.4,717.6,718.6,357.8,49.79,Action 'Re-engagement Strategy Call' approved. Proposed discount (20.0%) within policy cap of 20.0%.
+2647,0.0747,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1300,0.0398,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3737,0.0652,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2760,0.0007,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1906,0.0588,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2093,0.4957,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+1854,0.0002,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3574,0.4876,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+3716,0.0005,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1174,0.0005,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3152,0.0824,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1334,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2113,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1527,0.0957,Enterprise,299.0,3588.0,avg_session_gap_days,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1794,0.0004,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3980,0.0337,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1324,0.056,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1638,0.0005,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2352,0.0004,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3816,0.0211,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2279,0.0004,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3664,0.0001,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1463,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1195,0.0598,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3972,0.4271,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+3881,0.7013,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+2922,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3878,0.0006,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1729,0.1595,Pro,99.0,1188.0,session_drop_pct,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3155,0.0314,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1408,0.0843,Enterprise,299.0,3588.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3097,0.0179,Basic,29.0,348.0,days_since_last_session,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1888,0.0002,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1423,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3724,0.0124,Basic,29.0,348.0,avg_session_gap_days,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2304,0.0007,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1691,0.0006,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3239,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3858,0.0004,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2790,0.0467,Pro,99.0,1188.0,days_since_last_session,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1708,0.4766,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+1868,0.793,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+1003,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3194,0.0006,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3713,0.2351,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1798,0.1066,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1793,0.0009,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3033,0.0004,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1142,0.0004,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2159,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1857,0.0006,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2446,0.3551,Basic,29.0,348.0,days_since_last_session,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+3550,0.0007,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1713,0.5559,Enterprise,299.0,3588.0,sessions_recent_14d,True,Re-engagement Strategy Call,20.0,1076.4,717.6,718.6,357.8,49.79,Action 'Re-engagement Strategy Call' approved. Proposed discount (20.0%) within policy cap of 20.0%.
+1988,0.1646,Basic,29.0,348.0,session_drop_pct,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1992,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2705,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2692,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3540,0.0004,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1288,0.6889,Enterprise,299.0,3588.0,sessions_recent_14d,True,Re-engagement Strategy Call,20.0,1076.4,717.6,718.6,357.8,49.79,Action 'Re-engagement Strategy Call' approved. Proposed discount (20.0%) within policy cap of 20.0%.
+2880,0.7129,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+1040,0.012,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1088,0.0005,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1164,0.1028,Pro,99.0,1188.0,core_feature_usage_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2388,0.0008,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2094,0.0063,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2137,0.0298,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2125,0.0002,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3325,0.0003,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2016,0.1179,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1777,0.3263,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2932,0.0807,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1551,0.5631,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+3165,0.0235,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2163,0.6713,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+3642,0.727,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+1827,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1136,0.0602,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3799,0.1463,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3646,0.001,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3515,0.0002,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1385,0.0149,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2736,0.027,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1019,0.0005,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1774,0.2153,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1105,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3828,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1615,0.007,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3707,0.0007,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3439,0.1055,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3328,0.0004,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2913,0.0007,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2641,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2473,0.0006,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3151,0.2483,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1378,0.1965,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2141,0.0005,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2096,0.6882,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+2324,0.0615,Enterprise,299.0,3588.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3465,0.0582,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1480,0.0485,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2241,0.6142,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+1290,0.0006,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1945,0.7154,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+2120,0.0006,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2792,0.7795,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+2228,0.0003,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1544,0.0008,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2292,0.0008,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2118,0.0607,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3919,0.0007,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1870,0.0007,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2819,0.0004,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1754,0.075,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1937,0.3527,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+2454,0.001,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2286,0.7788,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+3338,0.6968,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+2971,0.683,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+3933,0.0002,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3319,0.0337,Basic,29.0,348.0,sessions_previous_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3560,0.0086,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3912,0.1409,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3342,0.0059,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1044,0.0463,Pro,99.0,1188.0,avg_session_gap_days,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3810,0.0004,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1538,0.0014,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3143,0.0683,Pro,99.0,1188.0,days_since_last_session,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2234,0.0004,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2746,0.0427,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1458,0.0006,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2360,0.0002,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2386,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1270,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3099,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3915,0.0481,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1523,0.094,Enterprise,299.0,3588.0,total_spend_60d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3276,0.0002,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2943,0.2812,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3771,0.0935,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2962,0.0003,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1706,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2749,0.6529,Enterprise,299.0,3588.0,sessions_recent_14d,True,Re-engagement Strategy Call,20.0,1076.4,717.6,718.6,357.8,49.79,Action 'Re-engagement Strategy Call' approved. Proposed discount (20.0%) within policy cap of 20.0%.
+2185,0.0514,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3936,0.0005,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2385,0.2146,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1229,0.0005,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2689,0.0006,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3071,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2501,0.0439,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1768,0.0005,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2648,0.0004,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3723,0.0004,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1748,0.0534,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2995,0.3857,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+2517,0.0003,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3525,0.0808,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2680,0.0339,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3003,0.0007,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2829,0.0232,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2807,0.0286,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1727,0.0177,Enterprise,299.0,3588.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1948,0.1902,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2866,0.7204,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+2246,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1364,0.0159,Basic,29.0,348.0,days_since_last_session,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1622,0.8267,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+2975,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3671,0.7397,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+1007,0.0003,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1134,0.1376,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1460,0.0008,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3884,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1653,0.4357,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+2853,0.1294,Enterprise,299.0,3588.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3244,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2709,0.0676,Basic,29.0,348.0,avg_session_gap_days,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3813,0.2309,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2688,0.037,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3351,0.0006,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2019,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3021,0.0018,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1520,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1997,0.0007,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3428,0.0006,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2322,0.0392,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2550,0.0035,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2879,0.0006,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2582,0.0757,Basic,29.0,348.0,core_feature_usage_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1558,0.0173,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3301,0.1245,Basic,29.0,348.0,unresolved_tickets,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1222,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3683,0.6498,Pro,99.0,1188.0,sessions_recent_14d,True,Re-engagement Strategy Call,15.0,356.4,178.2,179.2,177.2,98.88,Action 'Re-engagement Strategy Call' approved. Proposed discount (15.0%) within policy cap of 15.0%.
+2018,0.0044,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2860,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2634,0.0697,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3068,0.0002,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3120,0.0011,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2586,0.0004,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2168,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2091,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2917,0.0007,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2383,0.6429,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+3977,0.0161,Pro,99.0,1188.0,avg_session_gap_days,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2233,0.0026,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3501,0.0007,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1119,0.0008,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2865,0.0314,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2513,0.0008,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3061,0.0408,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3848,0.0004,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1810,0.0438,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3635,0.0003,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2935,0.0005,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1750,0.4525,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+1213,0.0166,Basic,29.0,348.0,avg_session_gap_days,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2273,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3500,0.1371,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2600,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3029,0.0006,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2288,0.2083,Basic,29.0,348.0,session_drop_pct,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2562,0.0007,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2915,0.0014,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1404,0.645,Enterprise,299.0,3588.0,sessions_recent_14d,True,Re-engagement Strategy Call,20.0,1076.4,717.6,718.6,357.8,49.79,Action 'Re-engagement Strategy Call' approved. Proposed discount (20.0%) within policy cap of 20.0%.
+1054,0.0108,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1473,0.0005,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2412,0.0042,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1806,0.0452,Enterprise,299.0,3588.0,total_spend_60d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1182,0.0483,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3357,0.3153,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1815,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1742,0.0002,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1833,0.3687,Enterprise,299.0,3588.0,sessions_recent_14d,True,Re-engagement Strategy Call,20.0,1076.4,717.6,718.6,357.8,49.79,Action 'Re-engagement Strategy Call' approved. Proposed discount (20.0%) within policy cap of 20.0%.
+2916,0.0116,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3921,0.0001,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3769,0.0591,Basic,29.0,348.0,core_feature_usage_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1725,0.1505,Enterprise,299.0,3588.0,total_spend_60d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3495,0.028,Pro,99.0,1188.0,days_since_last_session,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3835,0.0556,Basic,29.0,348.0,avg_session_gap_days,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3558,0.0733,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3490,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2480,0.0685,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3336,0.6084,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+2000,0.0011,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2219,0.0003,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3588,0.0599,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1734,0.0009,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3109,0.0002,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3976,0.0004,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3497,0.0222,Basic,29.0,348.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1277,0.1754,Pro,99.0,1188.0,support_ticket_count,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2482,0.4532,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+2419,0.0002,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2310,0.0005,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+3450,0.3069,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2543,0.0397,Pro,99.0,1188.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+2930,0.4941,Basic,29.0,348.0,sessions_recent_14d,True,Re-engagement Strategy Call,10.0,104.4,34.8,35.8,68.6,191.62,Proposed discount (15.0%) exceeds maximum allowed cap of 10.0% for LTV $348.00.
+3954,0.111,Basic,29.0,348.0,avg_session_gap_days,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1434,0.0004,Basic,29.0,348.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
+1851,0.0003,Enterprise,299.0,3588.0,sessions_recent_14d,False,No Action (User Safe),0.0,0.0,0.0,0.0,0.0,0.0,Ineligible: Churn risk below 35% threshold.
